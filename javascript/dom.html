@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="h1">Lerning DOM Javascript</h1>
+    <div class="box">
+        <h1>Lorem, ipsum dolor sit.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque minus eligendi ratione, nihil, impedit et laudantium magnam temporibus, labore fuga repellendus! Incidunt, sit aut? Impedit id ad nam quae enim!</p>
+    </div>
+    <div class="box">
+
+    </div>
+
+</body>
+    <script>
+        const h1=document.getElementById('h1');
+        h1.innerHTML = 'about DOM';
+        h1.style.color='deeppink';
+        h1.style.backgroundColor='black';
+        h1.style.textAlign='center'
+        const box=document.getElementsByClassName('box');
+        box[0].innerText='first language';
+        box[1].innerHTML='<h1>Lorem, ipsum dolor sit.</h1>';
+        box[1].style.color='yellow';
+        box[1].style.backgroundColor='red';
+        
+    </script>
+</html>

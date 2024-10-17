@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box">
+        Lorem ipsum dolor sit amet, consectetur adipisicing.
+    </div>
+    <div class="box">
+        Lorem ipsum dolor sit amet, consectetur adipisicing.
+    </div>
+    <div class="box">
+        Lorem ipsum dolor sit amet, consectetur adipisicing.
+    </div>
+</body>
+<script>
+    const box = document.querySelectorAll('.box')
+    // box[0].style.color='red';
+    box.forEach((item,index,value)=>{
+    item.style.background='red';
+    item.stlye.margin='15px';
+    console.log(index);
+    console.log(value);
+    })
+</script>
+</html>

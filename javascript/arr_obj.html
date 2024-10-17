@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const products=[
+            {code: 1001, proName:'Coffee', price:'2.5$', made_in:'Cambodia' },
+            {code: 1002, proName: 'Sting', price: '1.5$', made_in: 'Thailand' },
+            {code: 1003, proName: 'Coke', price: '1.5$', made_in: 'Cambodia' }
+    ];
+        console.log(products)
+        //const search=product.find(item => item.code == 3005);
+        //console.log(search);
+        const search= products.filter(render => render.proName=='Sting');
+        console.log(search);
+    </script>
+</body>
+</html

@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(image/RETROWAVE-OASIS-33331.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 80%;
+    height: 100vh;
+    background-color: none;
+}
+.box-up, .box-down{
+    margin-top: 26px;
+    width: 100%;
+    height: 45.5%;
+    display: flex;
+    justify-content: space-between;
+    background-color: none;
+}
+.box-down{
+    margin-top: 10px;
+    background-color: none;
+}
+.left, .center1, .center2, .right{
+    width: 24%;
+    height: 100%;
+    background-color: yellow;
+}
+.box-down{
+    /* margin: 10px; */
+    background-color: none;
+}
+.left, .center1, .center2, .right{
+    width: 24%;
+    height: 100%;
+    background-color: white;

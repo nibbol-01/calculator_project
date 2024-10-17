@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/CSS/image/RETROWAVE-OASIS-33331.webp);
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+     width: 100%;
+     
+}

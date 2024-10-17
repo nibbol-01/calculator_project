@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/project_calculator_jsscript/style.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="button">
+            <input type="text" id="result"><br>
+            <button class="tbn" onclick="clearResult()">C</button>
+            <button class="tbn" onclick="deleteLast()">Del</button>
+            <button class="tbn" onclick="input('/')">÷</button>
+            <button class="tbn" onclick="input('*')">x</button>
+            <button class="tbn" onclick="input('7')">7</button>
+            <button class="tbn" onclick="input('8')">8</button>
+            <button class="tbn" onclick="input('9')">9</button>
+            <button class="tbn" onclick="input('-')">-</button>
+            <button class="tbn" onclick="input('4')">4</button>
+            <button class="tbn" onclick="input('5')">5</button>
+            <button class="tbn" onclick="input('6')">6</button>
+            <button class="tbn" onclick="input('+')">+</button>
+            <button class="tbn" onclick="input('1')">1</button>
+            <button class="tbn" onclick="input('2')">2</button>
+            <button class="tbn" onclick="input('3')">3</button>
+            <button class="tbn" onclick="equal()">=</button>
+            <button class="tbn" onclick="input('0')">0</button>
+            <button class="tbn" onclick="input('.')">.</button>
+        </div>
+    </div>
+</body>
+<script>
+    function input(value) {
+        const input = document.getElementById('result');
+        input.value += value;
+    }
+    function equal() {
+        const input = document.getElementById('reuslt');
+    }
+    function clearResult() {
+        const input = document.getElementById('result');
+    }
+    function deleteLast() {
+        const input = document.getElementById('result');
+        input.value = input.value.slice(0, -1)
+    }
+
+</script>
+
+</html>

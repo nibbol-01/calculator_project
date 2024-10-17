@@ -1,0 +1,12 @@
+h1{
+    align="center" 
+    width: 50%;
+    height: 100px;
+    display: flex;
+    padding: ;
+    justify-content: center;
+    align-items: center;
+    color: rgb(27, 33, 39);
+    font-size: 35px;
+    background-color: aquamarine;
+}
